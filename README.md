@@ -61,10 +61,12 @@ regenerate it (e.g. change `NUM_ORDERS` to scale up or down) whenever you want.
 
 ## Setup
 
-If you're reusing the venv from the HR-policy project, `requirements.txt`
-here uses the same package versions you already confirmed working, so you
-likely don't need to reinstall anything - just proceed to "Run it" below.
-Otherwise, in a fresh environment:
+`requirements.txt`  "Run it" below.
+
+pip install -r requirements.txt
+
+
+fresh environment:
 
 ```bash
 python -m venv venv
