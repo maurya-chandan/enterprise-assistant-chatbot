@@ -63,7 +63,9 @@ regenerate it (e.g. change `NUM_ORDERS` to scale up or down) whenever you want.
 
 `requirements.txt`  "Run it" below.
 
+```bash
 pip install -r requirements.txt
+```
 
 
 fresh environment:
