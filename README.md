@@ -100,12 +100,20 @@ This downloads the embedding model on first run and writes to
 so you can run both projects side by side if you want):
 ```bash
 uvicorn customer_api_gateway:app --host 127.0.0.1 --port 8001 --reload
+
+OR 
+
+py -m uvicorn customer_api_gateway:app --host 127.0.0.1 --port 8001 --reload
 ```
 Wait for `Uvicorn running on http://127.0.0.1:8001` before moving on.
 
 **4. Start the chat UI**, in a separate terminal:
 ```bash
 streamlit run customer_frontend_chat_ui.py
+
+OR 
+
+py -m streamlit run customer_frontend_chat_ui.py
 ```
 
 ## Try it
